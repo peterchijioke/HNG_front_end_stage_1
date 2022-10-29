@@ -16,7 +16,7 @@ let photo = '../../images/profile_img.jpg'
                </div>
                 <img src={require(`../../images/profile_img.jpg`)} id="profile__img" alt={`profile ${photo}`}/>
                 <p id="twitter">Chukwu (Chijioke) Peter</p>
-                <p id="slack">Chukwu (Chijioke) Peter</p>
+                <p id="slack">Chukwu Chijioke Peter</p>
             </div>
             <div>
 
