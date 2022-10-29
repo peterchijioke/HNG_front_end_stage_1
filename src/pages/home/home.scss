@@ -1,5 +1,5 @@
 .container{
-    background-color: aqua;
+    background-color: white;
     width: 100%;
     height: 100%;
     display: flex;
@@ -10,7 +10,6 @@
         width: 90%;
         height: 40vh;
         background-color: white;
-        border-bottom: 1px solid black;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -40,13 +39,58 @@
             background-color: aliceblue;
             border-radius: 275px;
         }
-        .twitter{
+        #twitter{
             font-family: 'Inter';
             font-style: normal;
             font-weight: 700;
             font-size: 20px;
             line-height: 30px;
             margin-top: 20px;
+        }
+        #slack{
+            display: none;
+        }
+    }
+}
+
+
+@media screen and (max-width:900px) {
+    .container{
+        background-color: aqua;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .profile-section{
+            position: relative;
+            width: 90%;
+            height: 40vh;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            .avatar-share-button{
+                position: absolute;
+                display: flex;
+                margin-top: 5px;
+                top: 0;
+                right:0;
+                margin-right: 5%;
+                align-items: center;
+                justify-content: center;
+                    border: 1px dashed #D0D5DD;
+                    border-radius: 20px;
+                    width: 40px;
+                    height: 40px;
+                    .icon-share{
+                        font-size: 20px;
+                        color: #98A2B3
+                    }
+            }
+           
+           
         }
     }
 }
